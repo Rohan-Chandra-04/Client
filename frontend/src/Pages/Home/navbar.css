@@ -3,11 +3,13 @@
 .navbar {
     height: 7vh;
     padding: 10px;
-    background-color:firebrick;
+    background-color:slateblue;
     text-align: center;
+    
 }
 
 .link {
     margin-right: 1%;
+    color: black;
 }
 
