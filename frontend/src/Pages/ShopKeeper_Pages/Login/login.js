@@ -1,6 +1,6 @@
 import React from "react";
 import './login.css';
-
+import { Link } from "react-router-dom";
 
 function Details(props) {
 
@@ -26,7 +26,7 @@ function Login(){
                 <Details label="Email" />
                 <Details label="Password" type="password"/>
                 <button className="shop-signin" >Sign In</button>
-                <div className="shop-signup-link">Are you new? <a href="https://www.youtube.com/" target="_blank">Register here</a></div>
+                <div className="shop-signup-link">Are you new? <Link to="/ShopKeeperSignUp">Register Here!</Link></div>
             </div>
         </div>
         </>
