@@ -3,10 +3,15 @@ import './login.css';
 
 
 function Details(props) {
+
+    if(props.type === null) {
+        props.type = "text";
+    }
+
     return(
         <div>
-            <label>{props.label}</label><br></br>
-            <input type="text" className="textarea"></input>
+            <label className="login-label">{props.label}</label><br></br>
+            <input type={props.type} className="login-textarea"></input>
         </div>
     );
 }
@@ -14,13 +19,14 @@ function Details(props) {
 function Login(){
     return (
         <>
-        <div className = "container">
-            <div className="box">
-                <h1>User Login</h1>
-                <Details label="email" />
-                <Details label="password" />
-                <button className="submit" >Submit</button>
-                <div className="signup">Are you new? <a href="https://www.youtube.com/" target="_blank">Register here</a></div>
+        <div className = "login-container">
+            <div className="login-box">
+                <h1 className="login-h1">Hello Customer!</h1>
+                <p className="login-p">Login here!</p>
+                <Details label="Email" />
+                <Details label="Password" type="password"/>
+                <button className="signin" >Sign In</button>
+                <div className="signup-link">Are you new? <a href="https://www.youtube.com/" target="_blank">Register here</a></div>
             </div>
         </div>
         </>

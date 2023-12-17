@@ -1,6 +1,4 @@
-
-
-.adlogin-container {
+.shopsignup-container {
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
     align-items: center;
@@ -10,7 +8,7 @@
     background-color: cornflowerblue;
 }
 
-.adlogin-box {
+.shopsignup-box {
     -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
@@ -18,39 +16,46 @@
     background-color: whitesmoke;
     flex-direction: column;
     align-items: center;
-    height: 55vh;
+    height: 80vh;
     width: 20vw;
     border-radius: 7px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 
-.adlogin-h1 {
+.shopsignup-h1 {
     font-weight: 700;
     margin-top: 15%;
     margin-bottom: 0;
     font-size: x-large;
 }
 
-.adlogin-p {
+.shopsignup-p {
     margin-top: 5%;
     font-size: small;
-    margin-bottom: 17%;
+    margin-bottom: 8%;
 }
 
-.adlogin-label {
+.shopsignup-label {
     font-size: 85%;
 }
 
-.adlogin-textarea {
+.shopsignup-textarea {
     border: white;  
-    margin-bottom: 20%;  
+    margin-bottom: 10%;  
     border-radius: 5px;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.ad-signin {
+.addressbar {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+
+.shop-signup {
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
@@ -63,17 +68,14 @@
     border-radius: 5px;
     width: 50%;
     height: 6%;
-    margin-bottom: 10%;
 }
 
-.ad-signin:hover {
+.shop-signup:hover {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     opacity: 50%;
     cursor: pointer;
 }
-
-
 
 
