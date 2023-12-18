@@ -1,11 +1,11 @@
 import React from "react";
 
-function Login(){
+function Contact(){
     return (
         <div>
-            <h1>Hello Worldy</h1>
+            <h1>Contact page</h1>
         </div>
     )
 }
 
-export default Login;
+export default Contact;
