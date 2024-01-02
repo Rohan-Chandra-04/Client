@@ -1,18 +1,29 @@
 import React from "react";
 import './signup.css';
 
+import { SearchBox } from '@mapbox/search-js-react';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+const token = "pk.eyJ1Ijoicm90aWJveSIsImEiOiJjbHFlNmE5ZzgwanR4MmtzNHR4dXN2MWhkIn0._QUODvJUzAKnNITpgz1-oQ"
+
+
+function SearchBar() {
+    const [value, setValue] = React.useState('');
+    return (
+        <div>
+            <SearchBox accessToken={token} value = {value} />
+        </div>
+    );
+}
+
 
 function Details(props) {
 
-    if(props.type === "dropdown") {
+    if(props.type === "searchbar") {
         return(
-            <div className="addressbar">
-                <label className="shopsignup-label">{props.label}</label>
-                <select name="location" id="location" className="shopsignup-textarea">
-                    <option value="amul">Amul</option>
-                    <option value="nandhini">Nadhini</option>
-                    <option value="suprabha">Suprabha</option>
-                </select>
+            <div>
+                <label className="shopsignup-label">{props.label}</label><br></br>
+                <SearchBar className="shopsignup-location"/>
             </div>
         );
     }
@@ -38,7 +49,7 @@ function SignUp(){
                 <p className="shopsignup-p">Sign Up here!</p>
                 <Details label="Name" />
                 <Details label="Shop Name" />
-                <Details label="Address (test)" type="dropdown" />
+                <Details label="Address" type="searchbar" />
                 <Details label="Email" />
                 <Details label="Ph No." />
                 <Details label="Password" type="password" />

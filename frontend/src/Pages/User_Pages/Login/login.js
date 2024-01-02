@@ -1,6 +1,6 @@
 import React from "react";
 import './login.css';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 function Details(props) {
@@ -17,7 +17,11 @@ function Details(props) {
     );
 }
 
+
 function Login(){
+
+    const navigate = useNavigate();
+
     return (
         <>
         <div className = "login-container">
@@ -26,7 +30,7 @@ function Login(){
                 <p className="login-p">Login here!</p>
                 <Details label="Email" />
                 <Details label="Password" type="password"/>
-                <button className="signin" >Sign In</button>
+                <button className="signin" onClick={() => navigate("/UserHomePage")}>Sign In</button>
                 <div className="signup-link">Are you new? <Link to="/UserSignUp">Register Here!</Link></div>
             </div>
         </div>
