@@ -6,6 +6,8 @@ import LandingPage from './Pages/Landing_Page/landing_page';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Contact from './Pages/Contact_page/contact';
 import Help from './Pages/help_page/help';
+import Home from './Pages/Home_Page/home';
+import Profile from './Pages/Profile_Page/profile';
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
         <Route path="/userlogin" element={<UserLogin/>}/>
         <Route path="/shopkeeperlogin" element={<ShopKeeperLogin/>}/>
         <Route path="/adminlogin" element={<AdminLogin/>}/>
-        
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/profile" element={<Profile/>}/>
 
         
       </Routes>
