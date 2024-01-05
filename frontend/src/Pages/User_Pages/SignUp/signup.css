@@ -1,6 +1,4 @@
-
-
-.login-container {
+.signup-container {
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
     align-items: center;
@@ -10,7 +8,7 @@
     background-color: #feb64b;
 }
 
-.login-box {
+.signup-box {
     -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
@@ -18,21 +16,22 @@
     background-color: whitesmoke;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
     width: 20vw;
     border-radius: 20px 0 0 20px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
-.login-art {
-    height: 60vh;
+.signup-art {
+    height: 70vh;
     width: 20vw;
     padding-right: 20px;
     padding-left: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
     background-image: url(../../../assets/login-art.jpg);
+    background-position: center;
     opacity: 90%;
     border-radius: 0 20px 20px 0;
     -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
@@ -40,31 +39,31 @@
     box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
-.login-h1 {
+.signup-h1 {
     font-weight: 700;
     margin-top: 15%;
     margin-bottom: 0;
     font-size: x-large;
 }
 
-.login-p {
+.signup-p {
     margin-top: 5%;
     font-size: small;
-    margin-bottom: 17%;
+    margin-bottom: 8%;
 }
 
-.login-label {
+.signup-label {
     font-size: 85%;
 }
 
-.login-textarea {
+.signup-textarea {
     border: white;  
-    margin-bottom: 20%;  
+    margin-bottom: 10%;  
     border-radius: 5px;
     font-family: 'Source Sans 3', sans-serif;
 }
 
-.signin {
+.signup {
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
@@ -77,20 +76,14 @@
     border-radius: 5px;
     width: 50%;
     height: 6%;
-    margin-bottom: 10%;
 }
 
-.signin:hover {
+.signup:hover {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
     opacity: 50%;
     cursor: pointer;
-}
-
-.signup-link {
-    font-weight: 400;
-    font-size: x-small;
 }
 
 
