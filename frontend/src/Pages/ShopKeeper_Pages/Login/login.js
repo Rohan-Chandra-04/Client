@@ -28,6 +28,7 @@ function Login(){
                 <button className="shop-signin" >Sign In</button>
                 <div className="shop-signup-link">Are you new? <Link to="/ShopKeeperSignUp">Register Here!</Link></div>
             </div>
+            <div className="shoplogin-art"></div>
         </div>
         </>
     )

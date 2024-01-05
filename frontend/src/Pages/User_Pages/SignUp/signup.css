@@ -5,7 +5,7 @@
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-color: cornflowerblue;
+    background-color: #feb64b;
 }
 
 .signup-box {
@@ -16,12 +16,27 @@
     background-color: whitesmoke;
     flex-direction: column;
     align-items: center;
-    height: 65vh;
+    height: 70vh;
     width: 20vw;
-    border-radius: 7px;
+    border-radius: 20px 0 0 20px;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 5px;
+}
+
+.signup-art {
+    height: 70vh;
+    width: 20vw;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-image: url(../../../assets/login-art.jpg);
+    background-position: center;
+    opacity: 90%;
+    border-radius: 0 20px 20px 0;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .signup-h1 {
@@ -45,15 +60,15 @@
     border: white;  
     margin-bottom: 10%;  
     border-radius: 5px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .signup {
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
     margin-top: 10%;
     border: white;
     background-color:palevioletred;

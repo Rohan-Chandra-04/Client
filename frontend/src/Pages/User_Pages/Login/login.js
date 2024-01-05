@@ -33,6 +33,7 @@ function Login(){
                 <button className="signin" onClick={() => navigate("/UserHomePage")}>Sign In</button>
                 <div className="signup-link">Are you new? <Link to="/UserSignUp">Register Here!</Link></div>
             </div>
+            <div className="login-art"></div>
         </div>
         </>
     )

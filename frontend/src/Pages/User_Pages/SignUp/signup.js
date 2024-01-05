@@ -29,6 +29,7 @@ function SignUp(){
                 <Details label="Password" type="password"/>
                 <button className="signup" >Sign Up</button>
             </div>
+            <div className="signup-art"></div>
         </div>
         </>
     )

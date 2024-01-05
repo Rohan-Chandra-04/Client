@@ -27,6 +27,7 @@ function Login(){
                 <Details label="Password" type="password"/>
                 <button className="ad-signin" >Sign In</button>
             </div>
+            <div className="adlogin-art"></div>
         </div>
         </>
     )

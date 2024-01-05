@@ -55,6 +55,7 @@ function SignUp(){
                 <Details label="Password" type="password" />
                 <button className="shop-signup" >Sign Up</button>
             </div>
+            <div className="shopsignup-art"></div>
         </div>
         </>
     )

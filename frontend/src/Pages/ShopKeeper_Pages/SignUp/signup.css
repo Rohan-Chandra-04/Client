@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
-    background-color: cornflowerblue;
+    background-color: #feb64b;
 }
 
 .shopsignup-box {
@@ -19,10 +19,25 @@
     justify-content: space-between;
     height: 90vh;
     width: 20vw;
-    border-radius: 7px;
+    border-radius: 20px 0 0 20px;
     padding-right: 65px;
     padding-left: 65px;
     padding-bottom: 5%;
+}
+
+.shopsignup-art {
+    height: 90vh;
+    width: 20vw;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-bottom: 5%;
+    background-image: url(../../../assets/login-art.jpg);
+    background-position: center;
+    opacity: 90%;
+    border-radius: 0 20px 20px 0;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .shopsignup-h1 {
@@ -46,7 +61,7 @@
     border: white;  
     margin-bottom: 5%;  
     border-radius: 5px;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 
@@ -56,8 +71,8 @@
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 400;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 500;
     margin-top: 10%;
     border: white;
     background-color:palevioletred;
