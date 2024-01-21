@@ -59,14 +59,10 @@ function Landingpage(){
 
                         <div className="card">
                         <div className="c1">
-                            <p>Existing Admin?</p>
+                
                              <button><Link to='/adminlogin' className="loginlinks">SignIn as Admin</Link></button>
                              </div>
-                             <div className="c1">
-                                <p>New Admin?</p>
-                             <button><Link to='/adminlogin' className="loginlinks">SignUp as Admin</Link></button>
-                             </div>
-
+                             
                         </div>
 
                         </div>

@@ -8,6 +8,7 @@ import Contact from './Pages/Contact_page/contact';
 import Help from './Pages/help_page/help';
 import Home from './Pages/Home_Page/home';
 import Profile from './Pages/Profile_Page/profile';
+import   ShopLanding from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop_landing';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/adminlogin" element={<AdminLogin/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/profile" element={<Profile/>}/>
+        <Route path="/shoplanding" element={<ShopLanding/>}></Route>
 
         
       </Routes>
