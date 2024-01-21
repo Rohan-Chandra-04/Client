@@ -4,6 +4,7 @@ import ProductCard from '../../../../components/Product_card/Product_card';
 import { Link } from 'react-router-dom'; // Assuming you're using react-router for navigation
 import './shoplanding.css';
 import * as Yup from 'yup';
+import Comments from './comments';
 
 const productSchema = Yup.object().shape({
     name: Yup.string().required('Name is required'),
@@ -72,10 +73,10 @@ const ShopPage = () => {
       <div className="shop-details">
         <h1>My Awesome Shop</h1>
         <p>Rating: 4.5</p>
-        <p>Comments: Great service! Fast delivery!</p>
         <Link to="/chat" className="chat-button">
           Chat with Users
         </Link>
+        
       </div>
       <div className="product-list">
         {products.map((product) => (
@@ -109,7 +110,7 @@ const ShopPage = () => {
         <button onClick={handleAddProduct}>Add Product</button>
         
       </div>
-
+      <Comments/>
 
     </div>
   );
