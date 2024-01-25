@@ -9,7 +9,7 @@ const ProductCard = ({ product, onRemoveProduct }) => {
       <p>Category: {product.category}</p>
       <p>Rating: {product.rating}</p>
       <p>Quantity: {product.quantity}</p>
-      <button onClick={() => onRemoveProduct(product.id)}>Remove Product</button>
+      <button className="" onClick={() => onRemoveProduct(product.id)}>Remove Product</button>
     </div>
   );
 };

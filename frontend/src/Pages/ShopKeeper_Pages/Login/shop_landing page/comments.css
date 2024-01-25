@@ -1,67 +1,74 @@
-/* Add this to your existing CSS file or create a new one */
 
+  
 .comments-section {
-    width: 60%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    position: relative;
-  }
-  
-  .comments-section h2 {
-    color: #333;
-    margin-bottom: 15px;
-  }
-  
-  .comments-section .comments-content {
-    display: flex;
-    flex-direction: column; /* Display comments in reverse order (latest at the top) */
-  }
-  
-  .comments-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .comments-section li {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: flex-start; /* Align user comments to the left by default */
-  }
-  
-  .comments-section li.shopkeeper-comment {
-    justify-content: flex-end; /* Align shopkeeper comments to the right */
-  }
-  
-  .comments-section li strong {
-    margin-right: 10px; /* Adjust margin for user comments */
-  }
-  
-  .comments-section form {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  
-  .comments-section textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    resize: none;
-  }
-  
-  .comments-section button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-  }
-  
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+}
+
+.comments-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.comments-section .comments-content {
+  display: flex;
+  flex-direction: column; /* Display comments in reverse order (latest at the top) */
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-section li {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start; /* Align user comments to the left by default */
+}
+
+.comments-section li.shopkeeper-comment {
+  justify-content: flex-end; /* Align shopkeeper comments to the right */
+}
+
+.comments-section li strong {
+  margin-right: 15px; /* Adjust margin for user comments */
+  font-size: 18px;
+}
+
+.comments-section form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+  font-size: 16px;
+}
+
+.comments-section button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.comments-section button:hover {
+  background-color: #45a049;
+}
