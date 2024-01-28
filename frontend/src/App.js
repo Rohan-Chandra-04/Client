@@ -2,11 +2,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './Pages/Home/homepage';
 import UserLogin from './Pages/User_Pages/Login/login';
-import ShopKeeperLogin from './Pages/ShopKeeper_Pages/Login/login'
+import ShopKeeperLogin from './Pages/ShopKeeper_Pages/Login/login';
 import UserSignUp from './Pages/User_Pages/SignUp/signup';
-import ShopKeeperSignUp from './Pages/ShopKeeper_Pages/SignUp/signup'
-import AdminLogin from './Pages/Admin_Pages/Login/login'
-import UserHome from './Pages/User_Pages/Home/userhome'
+import ShopKeeperSignUp from './Pages/ShopKeeper_Pages/SignUp/signup';
+import AdminLogin from './Pages/Admin_Pages/Login/login';
+import UserHome from './Pages/User_Pages/Home/userhome';
+import ShopKeeperHome from './Pages/ShopKeeper_Pages/Home/shopkeeperhomepage';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/ShopKeeperSignUp" element={<ShopKeeperSignUp />} />
           <Route path="/AdminLogin" element={<AdminLogin />} />
           <Route path="/UserHomePage" element={<UserHome />} />
+          <Route path="/ShopKeeperHomePage" element={<ShopKeeperHome />} />
         </Routes>
       </Router>
 

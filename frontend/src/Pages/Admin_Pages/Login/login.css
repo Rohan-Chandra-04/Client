@@ -62,14 +62,14 @@
     border: white;  
     margin-bottom: 20%;  
     border-radius: 5px;
-    font-family: 'Source Sans 3', sans-serif;
+    
 }
 
 .ad-signin {
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-    font-family: 'Source Sans 3', sans-serif;
+    
     font-weight: 500;
     margin-top: 10%;
     border: white;

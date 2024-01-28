@@ -1,6 +1,6 @@
 import React from "react";
 import './login.css';
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Details(props) {
 
@@ -17,6 +17,9 @@ function Details(props) {
 }
 
 function Login(){
+
+    const navigate = useNavigate();
+
     return (
         <>
         <div className = "shoplogin-container">
@@ -25,7 +28,7 @@ function Login(){
                 <p className="shoplogin-p">Login here!</p>
                 <Details label="Email" />
                 <Details label="Password" type="password"/>
-                <button className="shop-signin" >Sign In</button>
+                <button className="shop-signin" onClick={() => navigate("/ShopKeeperHomePage")} >Sign In</button>
                 <div className="shop-signup-link">Are you new? <Link to="/ShopKeeperSignUp">Register Here!</Link></div>
             </div>
             <div className="shoplogin-art"></div>
