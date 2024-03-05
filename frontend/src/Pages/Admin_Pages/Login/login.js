@@ -1,4 +1,5 @@
 import React from "react";
+
 import './login.css';
 
 
@@ -30,6 +31,7 @@ function Login(){
             <div className="adlogin-art"></div>
         </div>
         </>
+
     )
 }
 
