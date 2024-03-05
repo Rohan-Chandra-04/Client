@@ -1,0 +1,18 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+}
+
+.homepage-h1 {
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+

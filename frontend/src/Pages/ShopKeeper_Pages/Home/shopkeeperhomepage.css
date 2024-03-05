@@ -1,0 +1,269 @@
+.shopkeeperhome-container {
+    min-height: 100vh;
+    height: 100%;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background-color: 	#f2f2f2;
+}
+
+.shopkeeperhome-h1 {
+    font-size: 40px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+
+.shopkeeperhome-search {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.shopkeeperhome-searchbar {
+    -webkit-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    border: solid black 1px;
+    text-align: center;
+    border-radius: 10px;
+    width: 15%;
+    margin-right: 10px;
+}
+
+
+.shopkeeperhome-searchbtn {
+    -webkit-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    border: 1px;
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    
+}
+
+.shopkeeperhome-searchbtn:hover {
+    opacity: 50%;
+    cursor: pointer;
+    box-shadow: 0;
+}
+
+.shopkeeperhome-filterbtn {
+    -webkit-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:#feb64b;
+    margin-right: 10px;
+    transition: ease-out 0.1s;
+}
+
+.shopkeeperhome-filterbtn:hover {
+    opacity: 50%;
+    cursor: pointer;
+    box-shadow: 0;
+    transform: scale(1.05, 1.05);
+    transition: ease-in 0.1s;
+}
+
+.shopkeeperhome-addshop {
+    -webkit-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#feb64b;
+    transition: ease-out 0.1s;
+}
+
+.shopkeeperhome-addshop:hover {
+    opacity: 50%;
+    cursor: pointer;
+    box-shadow: 0;
+    transform: scale(1.05, 1.05);
+    transition: ease-in 0.1s;
+}
+
+
+.shopkeeper-shopcards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: -40px;
+    justify-content: flex-start;
+    height: 530px;
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 2%;
+    margin-bottom: 0;
+}
+
+.shopkeeper-shop > p {
+    margin: 0;
+}
+
+.shop-edit-btn {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-image: url(../../../assets/edit-shop.png);
+    margin-left: 91%;
+    margin-top: 48%;
+    background-color:bisque;
+    transition: ease-out 0.2s;
+}
+
+.shop-edit-btn:hover {
+    transform: scale(1.1, 1.1);
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+
+
+.shopkeeper-shop {
+    -webkit-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px -6px rgba(0,0,0,0.75);
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+    height: 35%;
+    background-color: rgb(164, 215, 247);
+    transition: ease-out 0.2s;
+}
+
+.shopkeeper-shop:hover {
+    transform: scale(1.05, 1.05);
+    transition: ease-in 0.2s;
+}
+
+
+.shopkeepernavbar {
+    -webkit-box-shadow: 0px 4px 11px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 11px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 11px -4px rgba(0,0,0,0.75);
+    position: fixed;
+    height: 8%;
+    width: 100%;
+    margin-left: -40px;
+    background-color: #feb64b;
+    display: flex;
+    align-items: center;
+}
+
+.shopkeepernavbar > div {
+    height: 20px;
+    width: 20px;
+    margin-right: 15%;
+    background-position: center;
+    transition: ease-out 0.1s;
+}
+
+
+.shopkeeper-logo {
+    margin-left: 2.5%;
+    margin-right: 0.4% !important;
+    height: 35px !important;
+    width: 35px !important;
+    background-position: center;
+    background-image: url('../../../assets/logo.png');
+    transition: ease-out 0.1s;
+}
+
+.shopkeeper-logo-header {
+    margin-right: 38%;
+}
+
+
+.shopkeeper-logo:hover {
+    transform: scale(1.1,1.1);
+    transition: ease-in 0.1s;
+}
+
+
+.shopkeeper-chats {
+    background-position: center;
+    background-image: url('../../../assets/user-chat.png');
+}
+.shopkeeper-chats:hover {
+    transform: scale(1.2,1.2);
+    transition: ease-in 0.1s;
+}
+
+.shopkeeper-comments {
+    background-position: center;
+    background-image: url('../../../assets/user-comment.png');
+}
+.shopkeeper-comments:hover {
+    transform: scale(1.2,1.2);
+    transition: ease-in 0.1s;
+}
+
+.shopkeeper-profile {
+    margin-right: 2% !important;
+    background-position: center;
+    transform: scale(1.4, 1.4);
+    background-image: url('../../../assets/shopkeeper-profile.png');
+    display: flex;
+}
+
+.shopkeeper-profile:hover {
+    transform: scale(1.6,1.6);
+    transition: ease-in 0.1s;
+    cursor: pointer;
+}
+
+.shopkeeper-profile-subwrap {
+    position: absolute;
+    height: 250px !important;
+    width: 200px !important;
+    margin-top: 310.5px !important;
+    margin-left: 1250px !important;
+    background-color:aliceblue;
+    box-shadow: 2px 2.5px 5px -4px rgba(0,0,0,0.75);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    user-select: none;
+}
+
+.shopkeeper-profile-subwrap > h4 {
+    font-weight: 500;
+}
+
+.sk-profile-subwrap-option:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.shopkeeper-logout {
+    margin-right: 0px !important;
+    margin-left: 2% !important;
+    background-position: center;
+    background-image: url('../../../assets/user-logout.png');
+}
+.shopkeeper-logout:hover {
+    transform: scale(1.2,1.2);
+    transition: ease-in 0.05s;
+}
+
+
+

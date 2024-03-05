@@ -1,6 +1,17 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './Pages/Home/homepage';
 import UserLogin from './Pages/User_Pages/Login/login';
 import ShopKeeperLogin from './Pages/ShopKeeper_Pages/Login/login';
+
 import AdminLogin from './Pages/Admin_Pages/Login/login';
+
+import UserSignUp from './Pages/User_Pages/SignUp/signup';
+import ShopKeeperSignUp from './Pages/ShopKeeper_Pages/SignUp/signup';
+// import AdminLogin from './Pages/Admin_Pages/Login/login';
+import UserHome from './Pages/User_Pages/Home/userhome';
+import ShopKeeperHome from './Pages/ShopKeeper_Pages/Home/shopkeeperhomepage';
+
 import './App.css';
 import LandingPage from './Pages/Landing_Page/landing_page';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
@@ -13,6 +24,7 @@ import   ShopLanding from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop
 function App() {
   return (
     <div className="App">
+
     <Router>
       <Routes>
         <Route path="/" element= { <LandingPage/>}/>
@@ -29,6 +41,7 @@ function App() {
       </Routes>
     </Router>
       
+
     </div>
   );
 }
