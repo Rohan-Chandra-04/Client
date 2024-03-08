@@ -28,7 +28,7 @@ function Login(){
                 <p className="shoplogin-p">Login here!</p>
                 <Details label="Email" />
                 <Details label="Password" type="password"/>
-                <button className="shop-signin" onClick={() => navigate("/ShopKeeperHomePage")} >Sign In</button>
+                <button className="shop-signin" onClick={() => navigate("/ShopKeeperHome")} >Sign In</button>
                 <div className="shop-signup-link">Are you new? <Link to="/ShopKeeperSignUp">Register Here!</Link></div>
             </div>
             <div className="shoplogin-art"></div>

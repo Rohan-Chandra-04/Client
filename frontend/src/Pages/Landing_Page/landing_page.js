@@ -48,7 +48,7 @@ function Landingpage(){
                         <div className="card">
                         <div className="c1">
                             <p>Existing Shopkeeper?</p>
-                            <button><Link to='/shopkeeperloginlogin' className="loginlinks">SignIn as Shopkeeper</Link></button>
+                            <button><Link to='/shopkeeperlogin' className="loginlinks">SignIn as Shopkeeper</Link></button>
                             </div>
                             <div className="c1">
                                 <p>New Shopkeeper?</p>
