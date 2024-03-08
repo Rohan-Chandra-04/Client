@@ -29,7 +29,7 @@ function Login(){
                 <Details label="Email" />
                 <Details label="Password" type="password"/>
                 <button className="shop-signin" onClick={() => navigate("/ShopKeeperHome")} >Sign In</button>
-                <div className="shop-signup-link">Are you new? <Link to="/ShopKeeperSignUp">Register Here!</Link></div>
+                <div className="shop-signup-link">Are you new? <Link to="/shopkeeper_signup_page">Register Here!</Link></div>
             </div>
             <div className="shoplogin-art"></div>
         </div>
