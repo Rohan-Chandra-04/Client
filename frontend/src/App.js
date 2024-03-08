@@ -12,6 +12,7 @@ import Home from './Pages/Home_Page/home';
 import ShopLanding from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop_landing';
 import UserHome from './Pages/User_Pages/Home/userhome';
 import ShopKeeperHome from './Pages/ShopKeeper_Pages/Home/shopkeeperhomepage';
+import Demo from './Pages/Demo/demo';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
           <Route path="/shoplanding" element={<ShopLanding />} />
           <Route path='/userHome' element={<UserHome />} />
           <Route path='/shopKeeperHome' element={<ShopKeeperHome />} />
+
+          <Route path='demo' element={<Demo />} />
         </Routes>
       </Router>
     </div>
