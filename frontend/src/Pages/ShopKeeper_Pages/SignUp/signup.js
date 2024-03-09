@@ -40,7 +40,7 @@ function Details(props) {
     );
 }
 
-function SignUp(){
+function Shopkeeper_Signup(){
     return (
         <>
         <div className = "shopsignup-container">
@@ -61,7 +61,7 @@ function SignUp(){
     )
 }
 
-export default SignUp;
+export default Shopkeeper_Signup;
 
 
 
