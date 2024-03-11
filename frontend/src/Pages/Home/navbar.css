@@ -20,13 +20,13 @@
 }
 
 .nav-logo {
-    height: 80%;
+    height: 75%;
     width: 5%;
     background-image: url('../../assets/logo.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: 60%;
+    margin-right: 80%;
     transition: ease-out 0.1s;
 }
 
