@@ -11,7 +11,9 @@ export default function Home() {
             Find everything from textbooks to dorm decor in one convenient place. With easy navigation 
             and doorstep delivery, shopping for your academic journey has never been easier. Say goodbye to 
             long lines and crowded stores – GoLocal has you covered with competitive prices and top-notch service.</p>
+            <button className="join-btn">Join Now!</button>
         </div>
+        
         <footer>GoLocal | Designed by IEEE</footer>
         </>
     );

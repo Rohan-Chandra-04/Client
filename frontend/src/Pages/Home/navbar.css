@@ -27,4 +27,11 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 60%;
+    transition: ease-out 0.1s;
+}
+
+.nav-logo:hover {
+    transform: scale(1.05, 1.05);
+    transition: ease-in 0.1s;
+    
 }
