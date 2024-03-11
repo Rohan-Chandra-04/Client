@@ -68,7 +68,7 @@ function ShopSection() {
 
     return (
         <div>
-            <h3 className="admin-home-h3">Your Shops</h3>
+            <h3 className="admin-home-h3">The Shops</h3>
             <div className="admin-home-search">
                 <input
                     className="admin-home-searchbar"
@@ -109,7 +109,7 @@ function ProfileSection() {
 
     return (
         <div>
-            <h3 className="admin-home-h3">Your Products</h3>
+            <h3 className="admin-home-h3">The Products</h3>
             <div className="admin-home-search">
                 <input
                     className="admin-home-searchbar"
