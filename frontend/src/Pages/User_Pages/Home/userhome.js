@@ -4,9 +4,25 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+function UserProfileSubWrap(props) {
+    if(props.isVisible) {
+        return (
+            <>
+                <div className="user-profile-subwrap" id="submenu">
+                    <h4 className="user-profile-subwrap-option">Profile</h4>
+                    <h4 className="user-profile-subwrap-option">Settings</h4>
+                    <h4 className="user-profile-subwrap-option">Help</h4>
+                </div>
+            </>
+        );
+    }
+}
+
 function UserNavbar() {
 
     const navigate = useNavigate();
+
+    const [subWrap, setSubWrap] = React.useState(false);
 
     return(
         <>
@@ -15,7 +31,8 @@ function UserNavbar() {
                 <h1 className="logo-header">GoLocal</h1>
                 <div className="user-chats"></div>
                 <div className="user-comments"></div>
-                <div className="user-profile"></div>
+                <div className="user-profile" onClick={() => setSubWrap(!subWrap)}></div>
+                <UserProfileSubWrap isVisible={subWrap} />
                 <div className="user-logout"></div>
             </div>
         </>

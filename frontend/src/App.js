@@ -8,6 +8,7 @@ import ShopKeeperSignUp from './Pages/ShopKeeper_Pages/SignUp/signup';
 import AdminLogin from './Pages/Admin_Pages/Login/login';
 import UserHome from './Pages/User_Pages/Home/userhome';
 import ShopKeeperHome from './Pages/ShopKeeper_Pages/Home/shopkeeperhomepage';
+import AdminHome from './Pages/Admin_Pages/Home/admin-page';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/AdminLogin" element={<AdminLogin />} />
           <Route path="/UserHomePage" element={<UserHome />} />
           <Route path="/ShopKeeperHomePage" element={<ShopKeeperHome />} />
+          <Route path="/AdminHomePage" element={<AdminHome />} />
         </Routes>
       </Router>
 
