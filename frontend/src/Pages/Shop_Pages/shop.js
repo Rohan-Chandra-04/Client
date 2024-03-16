@@ -72,13 +72,17 @@ export default function Shop() {
                 <div>
                     <image alt='some image' />
                 </div>
-                <div>
+                <div style={{width: '50%'}}>
                     <h1>Shop Name</h1>
                     <p>Location</p>
-                    <Box sx={{'& > legend': { mt: 2 },}}>
+                    <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+                      <Box sx={{'& > legend': { mt: 2 },}}>
                         <Typography component="legend">Rating:</Typography>
                         <Rating name="simple-controlled" value={rating}/>
-                    </Box>
+                      </Box>
+
+                      <Button style={{backgroundColor: 'lightblue', color: 'white', height: '50px', marginTop:'1.5rem'}}>Chat</Button>
+                    </div>
                 </div>
             </div>
 
