@@ -1,4 +1,5 @@
 import React from "react";
+
 import './login.css';
 import { useNavigate } from "react-router-dom";
 
@@ -34,6 +35,7 @@ function Login(){
             <div className="adlogin-art"></div>
         </div>
         </>
+
     )
 }
 

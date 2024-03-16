@@ -16,7 +16,7 @@ function Details(props) {
     );
 }
 
-function SignUp(){
+function UserSignUp(){
     return (
         <>
         <div className = "signup-container">
@@ -35,7 +35,7 @@ function SignUp(){
     )
 }
 
-export default SignUp;
+export default UserSignUp;
 
 
 

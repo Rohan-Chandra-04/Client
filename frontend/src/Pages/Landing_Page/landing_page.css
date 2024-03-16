@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.landingpage{
+    width:100%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    
+}
+/*header*/
+.header{
+    
+    display: inline-grid;
+    grid-template-columns: 0.25fr  auto;
+    width: 100%;
+    height:12%;
+    background-color:#1b2430;
+}
+
+.logo{
+    margin:10px;
+    padding: 15px;
+}
+.logo h1{
+  color:#f2f2f2;
+}
+.header .nav{
+ 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+
+  }
+  
+  .header .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+  }
+
+  .links{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 580;
+    color: white;
+    transition: 0.3s  ease-in-out;
+}
+
+.links:hover{
+  color:#17cf97
+}
+
+
+/*contents*/
+ 
+.landingpagecontents{
+    display:inline-grid;
+    grid-template-columns: 0.4fr  auto;
+    width: 100%;
+    height:80%;
+    align-items: center;
+}
+.info{
+    margin:5px;
+    padding:5%;
+    height:80%;
+}
+
+.infocontents{
+    display:flex;
+    flex-direction: column;
+    margin:15%;
+    justify-content: space-between;
+}
+
+.infocontents p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+    color:#1b2430;
+}
+
+.signinoptions{
+    
+    height:100%;
+}
+
+
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 11px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  background-color:#17cf97;
+  color:black;
+  border: 2px solid #17cf97;
+}
+
+button:hover{
+    background-color:#a6c0cd;
+    border:2px solid #a6c0cd;
+    
+  
+
+}
+
+.loginlinks{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.loginlinks:hover
+{
+    color:white;
+}
+
+
+.card {
+    width: 300px;
+    height: 80%;
+    background-color:#1b2430;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .signincard{
+    height:60%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10%;
+  }
+
+  .c1 p{
+    margin:10px;
+    color: white;
+  }
+  
