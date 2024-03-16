@@ -13,6 +13,10 @@ import ShopLanding from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop_l
 import UserHome from './Pages/User_Pages/Home/userhome';
 import ShopKeeperHome from './Pages/ShopKeeper_Pages/Home/shopkeeperhomepage';
 
+import AdminHome from './Pages/Admin_Pages/Home/admin-page';
+import './App.css';
+=======
+
 import Comments from './Pages/ShopKeeper_Pages/Login/shop_landing page/comments';
 import ShopPage from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop_landing';
 import UserSignUp from './Pages/User_Pages/SignUp/signup';
@@ -27,6 +31,17 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
+
+          <Route path="/" element={<Home />} />
+          <Route path="/UserLogin" element={<UserLogin />} />
+          <Route path="/ShopKeeperLogin" element={<ShopKeeperLogin />} />
+          <Route path="/UserSignUp" element={<UserSignUp />} />
+          <Route path="/ShopKeeperSignUp" element={<ShopKeeperSignUp />} />
+          <Route path="/AdminLogin" element={<AdminLogin />} />
+          <Route path="/UserHomePage" element={<UserHome />} />
+          <Route path="/ShopKeeperHomePage" element={<ShopKeeperHome />} />
+          <Route path="/AdminHomePage" element={<AdminHome />} />
+=======
           <Route path="/" element={<LandingPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/help" element={<Help />} />
@@ -45,6 +60,7 @@ function App() {
 =======
 
           <Route path='demo' element={<Demo />} />
+
 
         </Routes>
       </Router>

@@ -176,5 +176,29 @@
     transition: ease-in-out 0.05s;
 }
 
+.user-profile-subwrap {
+    position: absolute;
+    height: 250px !important;
+    width: 200px !important;
+    margin-top: 310.5px !important;
+    margin-left: 1250px !important;
+    background-color:aliceblue;
+    box-shadow: 2px 2.5px 5px -4px rgba(0,0,0,0.75);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    user-select: none;
+}
+
+.user-profile-subwrap > h4 {
+    font-weight: 500;
+}
+
+.user-profile-subwrap-option:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
 
 

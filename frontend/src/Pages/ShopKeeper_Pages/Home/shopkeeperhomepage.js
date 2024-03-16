@@ -42,7 +42,6 @@ function ShopKeeperNavbar(props) {
 
 function Shop(props) {
 
-
     return (
         <>
             <li className="shopkeeper-shop">
