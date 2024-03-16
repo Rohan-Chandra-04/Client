@@ -17,8 +17,9 @@ import Comments from './Pages/ShopKeeper_Pages/Login/shop_landing page/comments'
 import ShopPage from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop_landing';
 import UserSignUp from './Pages/User_Pages/SignUp/signup';
 import Shopkeeper_Signup from './Pages/User_Pages/SignUp/signup';
-
-=======
+import AddProduct from './Pages/Product_Pages/addProducts';
+import Shop from './Pages/Shop_Pages/shop';
+//=======
 import Demo from './Pages/Demo/demo';
 
 
@@ -43,8 +44,9 @@ function App() {
           <Route path='/user_signup_page' element={<UserSignUp />} />
           <Route path='/shopkeeper_signup_page' element={<Shopkeeper_Signup />} />
 =======
-
+          <Route path='/addProduct' element={<AddProduct />} />
           <Route path='demo' element={<Demo />} />
+          <Route path='/shop' element={<Shop />} />
 
         </Routes>
       </Router>
