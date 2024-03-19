@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -15,18 +16,14 @@ import ShopKeeperHome from './Pages/ShopKeeper_Pages/Home/shopkeeperhomepage';
 
 import AdminHome from './Pages/Admin_Pages/Home/admin-page';
 import './App.css';
-//=======
-
 import Comments from './Pages/ShopKeeper_Pages/Login/shop_landing page/comments';
 import ShopPage from './Pages/ShopKeeper_Pages/Login/shop_landing page/shop_landing';
 import UserSignUp from './Pages/User_Pages/SignUp/signup';
-import Shopkeeper_Signup from './Pages/ShopKeeper_Pages/SignUp/signup';
+import Shopkeeper_Signup from './Pages/User_Pages/SignUp/signup';
 import AddProduct from './Pages/Product_Pages/addProducts';
 import Shop from './Pages/Shop_Pages/shop';
-//=======
 import Demo from './Pages/Demo/demo';
 import ShopKeeperProfile from './Pages/ShopKeeper_Pages/ShopKeeperProfile/shopKeeperProfile';
-
 
 function App() {
   return (
@@ -38,12 +35,11 @@ function App() {
           <Route path="/UserLogin" element={<UserLogin />} />
           <Route path="/ShopKeeperLogin" element={<ShopKeeperLogin />} />
           <Route path="/UserSignUp" element={<UserSignUp />} />
-          <Route path="/ShopKeeperSignUp" element={<Shopkeeper_Signup />} />
+          {/* <Route path="/ShopKeeperSignUp" element={<ShopKeeperSignUp />} /> */}
           <Route path="/AdminLogin" element={<AdminLogin />} />
           <Route path="/UserHomePage" element={<UserHome />} />
-          <Route path="/ShopKeeperHomePage" element={<ShopKeeperHome />} />
+          {/* <Route path="/ShopKeeperHomePage" element={<ShopKeeperHome />} /> */}
           <Route path="/AdminHomePage" element={<AdminHome />} />
-{/*=======*/}
           <Route path="/" element={<LandingPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/help" element={<Help />} />
@@ -59,7 +55,6 @@ function App() {
           <Route path='/shop_landing_page' element={<ShopPage />} />
           <Route path='/user_signup_page' element={<UserSignUp />} />
           <Route path='/shopkeeper_signup_page' element={<Shopkeeper_Signup />} />
-{/*=======*/}
           <Route path='/addProduct' element={<AddProduct />} />
           <Route path='demo' element={<Demo />} />
           <Route path='/shop' element={<Shop />} />
@@ -72,3 +67,5 @@ function App() {
 }
 
 export default App;
+
+
